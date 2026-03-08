@@ -389,3 +389,87 @@ JOIN `test_analyst.servco_fin` sv ON s.servco_id = sv.servco_id
 LEFT JOIN `test_analyst.media_package_fin` m ON s.contract_account = m.contract_account
 WHERE s.active_flag = 1
 GROUP BY package_type
+
+
+# Export Dataset for Dashboard
+
+## 1. Infrastucture Utilization
+SELECT
+  FORMAT_DATE('%m', s.snapshot_date) AS month,
+  h.region,
+  h.technology,
+  CASE
+    WHEN h.exclusive_flag IS TRUE THEN 'Exclusive'
+    ELSE 'Open Access'
+  END AS area_type,
+  COUNT(DISTINCT s.contract_account) AS active_ca,
+  COUNT(DISTINCT h.homeid) AS total_homepass,
+  ROUND(SAFE_DIVIDE(COUNT(DISTINCT s.contract_account), COUNT(DISTINCT h.homeid)) * 100,2) AS penetration_rate
+FROM `test_analyst.subscription_snapshot_fin` s
+JOIN `test_analyst.homepass_fin` h
+  ON s.homeid = h.homeid
+WHERE s.active_flag = 1
+GROUP BY month, region, technology, area_type
+
+## 2. Fibernode Performance
+SELECT
+  h.fibernode,
+  h.region,
+  SUM(h.capex_cost) AS total_capex,
+  COUNT(DISTINCT h.homeid) AS total_homepass,
+  COUNT(DISTINCT s.contract_account) AS active_ca,
+  ROUND(COUNT(DISTINCT s.contract_account) / COUNT(DISTINCT h.homeid) * 100,2) AS penetration_rate
+FROM `test_analyst.homepass_fin` h
+LEFT JOIN `test_analyst.subscription_snapshot_fin` s
+  ON h.homeid = s.homeid
+  AND s.active_flag = 1
+GROUP BY h.fibernode, h.region
+
+## 3. Servco Performance
+SELECT
+  FORMAT_DATE('%m', s.snapshot_date) AS month,
+  sv.servco_id,
+  sv.servco_name,
+  COUNT(DISTINCT s.contract_account) AS active_ca,
+  sv.lease_fee_per_active,
+  COUNT(DISTINCT s.contract_account) * sv.lease_fee_per_active AS lease_revenue
+FROM `test_analyst.subscription_snapshot_fin` s
+JOIN `test_analyst.servco_fin` sv
+  ON s.servco_id = sv.servco_id
+WHERE s.active_flag = 1
+GROUP BY month, sv.servco_id, sv.servco_name, sv.lease_fee_per_active
+
+## 4. Media Monetization
+SELECT
+  h.region,
+  sv.servco_id,
+  sv.servco_name,
+  COUNT(DISTINCT s.contract_account) AS total_subscribers,
+  COUNT(DISTINCT m.contract_account) AS media_users,
+  SUM(m.package_price) AS media_revenue,
+  ROUND(COUNT(DISTINCT s.contract_account) / COUNT(DISTINCT h.homeid) * 100,2) AS penetration_rate
+FROM `test_analyst.subscription_snapshot_fin` s
+JOIN `test_analyst.homepass_fin` h
+  ON s.homeid = h.homeid
+JOIN `test_analyst.servco_fin` sv
+  ON s.servco_id = sv.servco_id
+LEFT JOIN `test_analyst.media_package_fin` m
+  ON s.contract_account = m.contract_account
+WHERE s.active_flag = 1
+GROUP BY h.region, sv.servco_id, sv.servco_name
+
+## 5. ARPU Comparison
+SELECT
+  CASE
+    WHEN m.contract_account IS NULL THEN 'Internet Only'
+    ELSE 'Internet + Media'
+  END AS package_type,
+  COUNT(DISTINCT s.contract_account) AS user_count,
+  ROUND(AVG(sv.lease_fee_per_active + IFNULL(m.package_price,0)),2) AS avg_arpu
+FROM `test_analyst.subscription_snapshot_fin` s
+JOIN `test_analyst.servco_fin` sv
+  ON s.servco_id = sv.servco_id
+LEFT JOIN `test_analyst.media_package_fin` m
+  ON s.contract_account = m.contract_account
+WHERE s.active_flag = 1
+GROUP BY package_type
