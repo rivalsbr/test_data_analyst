@@ -252,7 +252,7 @@ SELECT
   sv.servco_name,
   sv.minimum_guarantee, 
   COUNT(DISTINCT s.contract_account) AS active_ca,
-    COUNT(DISTINCT s.contract_account) - sv.minimum_guarantee AS gap_to_target,
+  COUNT(DISTINCT s.contract_account) - sv.minimum_guarantee AS gap_to_target,
   COUNT(DISTINCT h.homeid) AS total_homepass,
   ROUND(COUNT(DISTINCT s.contract_account) / COUNT(DISTINCT h.homeid)*100, 2) AS penetration_rate,
   sv.lease_fee_per_active,
@@ -472,4 +472,5 @@ JOIN `test_analyst.servco_fin` sv
 LEFT JOIN `test_analyst.media_package_fin` m
   ON s.contract_account = m.contract_account
 WHERE s.active_flag = 1
+
 GROUP BY package_type
