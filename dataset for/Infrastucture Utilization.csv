@@ -1,1 +1,313 @@
-
+month,region,technology,area_type,active_ca,total_homepass,penetration_rate
+01,Bekasi,FTTH,Open Access,25,24,104.17
+02,Bekasi,FTTH,Open Access,29,27,107.41
+03,Bekasi,FTTH,Open Access,32,29,110.34
+04,Bekasi,FTTH,Open Access,37,34,108.82
+05,Bekasi,FTTH,Open Access,47,44,106.82
+06,Bekasi,FTTH,Open Access,53,49,108.16
+07,Bekasi,FTTH,Open Access,54,50,108.0
+08,Bekasi,FTTH,Open Access,58,54,107.41
+09,Bekasi,FTTH,Open Access,62,58,106.9
+10,Bekasi,FTTH,Open Access,63,59,106.78
+11,Bekasi,FTTH,Open Access,62,56,110.71
+12,Bekasi,FTTH,Open Access,62,56,110.71
+06,Jakarta Utara,FTTH,Open Access,51,48,106.25
+07,Jakarta Utara,FTTH,Open Access,55,51,107.84
+08,Jakarta Utara,FTTH,Open Access,59,55,107.27
+09,Jakarta Utara,FTTH,Open Access,60,57,105.26
+10,Jakarta Utara,FTTH,Open Access,62,58,106.9
+01,Jakarta Timur,FTTH,Exclusive,6,6,100.0
+02,Jakarta Timur,FTTH,Exclusive,7,7,100.0
+03,Jakarta Timur,FTTH,Exclusive,6,6,100.0
+04,Jakarta Timur,FTTH,Exclusive,6,6,100.0
+05,Jakarta Timur,FTTH,Exclusive,7,7,100.0
+06,Jakarta Timur,FTTH,Exclusive,9,9,100.0
+07,Jakarta Timur,FTTH,Exclusive,14,14,100.0
+08,Jakarta Timur,FTTH,Exclusive,19,19,100.0
+09,Jakarta Timur,FTTH,Exclusive,19,19,100.0
+10,Jakarta Timur,FTTH,Exclusive,19,19,100.0
+11,Jakarta Timur,FTTH,Exclusive,22,22,100.0
+12,Jakarta Timur,FTTH,Exclusive,22,22,100.0
+01,Jakarta Utara,FTTH,Exclusive,6,6,100.0
+02,Jakarta Utara,FTTH,Exclusive,6,6,100.0
+03,Jakarta Utara,FTTH,Exclusive,7,7,100.0
+04,Jakarta Utara,FTTH,Exclusive,9,9,100.0
+05,Jakarta Utara,FTTH,Exclusive,11,11,100.0
+06,Jakarta Utara,FTTH,Exclusive,11,11,100.0
+07,Jakarta Utara,FTTH,Exclusive,12,12,100.0
+08,Jakarta Utara,FTTH,Exclusive,14,14,100.0
+09,Jakarta Utara,FTTH,Exclusive,16,16,100.0
+10,Jakarta Utara,FTTH,Exclusive,21,21,100.0
+11,Jakarta Utara,FTTH,Exclusive,23,22,104.55
+12,Jakarta Utara,FTTH,Exclusive,22,21,104.76
+01,Jakarta Barat,FTTH,Exclusive,3,3,100.0
+02,Jakarta Barat,FTTH,Exclusive,4,4,100.0
+03,Jakarta Barat,FTTH,Exclusive,6,6,100.0
+04,Jakarta Barat,FTTH,Exclusive,7,7,100.0
+05,Jakarta Barat,FTTH,Exclusive,8,8,100.0
+06,Jakarta Barat,FTTH,Exclusive,9,9,100.0
+07,Jakarta Barat,FTTH,Exclusive,12,12,100.0
+08,Jakarta Barat,FTTH,Exclusive,16,16,100.0
+09,Jakarta Barat,FTTH,Exclusive,18,18,100.0
+10,Jakarta Barat,FTTH,Exclusive,18,18,100.0
+11,Jakarta Barat,FTTH,Exclusive,21,20,105.0
+12,Jakarta Barat,FTTH,Exclusive,20,19,105.26
+08,Jakarta Timur,FTTH,Open Access,54,47,114.89
+09,Jakarta Timur,FTTH,Open Access,52,46,113.04
+09,Depok,FTTH,Open Access,64,55,116.36
+10,Depok,FTTH,Open Access,64,56,114.29
+11,Depok,FTTH,Open Access,64,57,112.28
+12,Depok,FTTH,Open Access,63,56,112.5
+01,Jakarta Pusat,FTTH,Exclusive,7,7,100.0
+02,Jakarta Pusat,FTTH,Exclusive,7,7,100.0
+03,Jakarta Pusat,FTTH,Exclusive,9,9,100.0
+04,Jakarta Pusat,FTTH,Exclusive,10,10,100.0
+05,Jakarta Pusat,FTTH,Exclusive,11,11,100.0
+06,Jakarta Pusat,FTTH,Exclusive,11,11,100.0
+07,Jakarta Pusat,FTTH,Exclusive,14,14,100.0
+08,Jakarta Pusat,FTTH,Exclusive,17,16,106.25
+09,Jakarta Pusat,FTTH,Exclusive,19,18,105.56
+10,Jakarta Pusat,FTTH,Exclusive,22,19,115.79
+11,Jakarta Pusat,FTTH,Exclusive,26,22,118.18
+12,Jakarta Pusat,FTTH,Exclusive,25,22,113.64
+07,Jakarta Selatan,FTTH,Open Access,46,41,112.2
+08,Jakarta Selatan,FTTH,Open Access,48,43,111.63
+09,Jakarta Selatan,FTTH,Open Access,47,42,111.9
+10,Jakarta Selatan,FTTH,Open Access,48,43,111.63
+11,Jakarta Selatan,FTTH,Open Access,50,45,111.11
+12,Jakarta Selatan,FTTH,Open Access,48,44,109.09
+01,Jakarta Utara,HFC,Open Access,10,10,100.0
+02,Jakarta Utara,HFC,Open Access,11,11,100.0
+03,Jakarta Utara,HFC,Open Access,11,11,100.0
+04,Jakarta Utara,HFC,Open Access,12,12,100.0
+05,Jakarta Utara,HFC,Open Access,13,13,100.0
+06,Jakarta Utara,HFC,Open Access,14,14,100.0
+07,Jakarta Utara,HFC,Open Access,17,17,100.0
+08,Jakarta Utara,HFC,Open Access,17,17,100.0
+09,Jakarta Utara,HFC,Open Access,18,18,100.0
+10,Jakarta Utara,HFC,Open Access,20,19,105.26
+11,Jakarta Utara,HFC,Open Access,21,20,105.0
+12,Jakarta Utara,HFC,Open Access,21,20,105.0
+02,Jakarta Barat,FTTH,Open Access,35,33,106.06
+03,Jakarta Barat,FTTH,Open Access,37,35,105.71
+04,Jakarta Barat,FTTH,Open Access,42,38,110.53
+05,Jakarta Barat,FTTH,Open Access,47,43,109.3
+06,Jakarta Barat,FTTH,Open Access,52,48,108.33
+07,Jakarta Barat,FTTH,Open Access,54,49,110.2
+08,Jakarta Barat,FTTH,Open Access,56,50,112.0
+09,Jakarta Barat,FTTH,Open Access,59,53,111.32
+10,Jakarta Barat,FTTH,Open Access,60,54,111.11
+11,Jakarta Barat,FTTH,Open Access,61,55,110.91
+12,Jakarta Barat,FTTH,Open Access,60,54,111.11
+11,Jakarta Utara,FTTH,Open Access,69,61,113.11
+12,Jakarta Utara,FTTH,Open Access,68,60,113.33
+07,Tangerang,HFC,Open Access,21,20,105.0
+08,Tangerang,HFC,Open Access,24,22,109.09
+09,Tangerang,HFC,Open Access,25,23,108.7
+10,Tangerang,HFC,Open Access,25,22,113.64
+11,Tangerang,HFC,Open Access,27,24,112.5
+12,Tangerang,HFC,Open Access,27,24,112.5
+05,Jakarta Utara,FTTH,Open Access,48,46,104.35
+09,Tangerang,FTTH,Open Access,51,47,108.51
+10,Tangerang,FTTH,Open Access,55,48,114.58
+11,Tangerang,FTTH,Open Access,58,51,113.73
+12,Tangerang,FTTH,Open Access,58,51,113.73
+08,Depok,FTTH,Open Access,62,53,116.98
+01,Depok,HFC,Open Access,13,12,108.33
+02,Depok,HFC,Open Access,14,13,107.69
+03,Depok,HFC,Open Access,16,15,106.67
+06,Tangerang,FTTH,Open Access,42,39,107.69
+04,Jakarta Selatan,FTTH,Exclusive,3,3,100.0
+05,Jakarta Selatan,FTTH,Exclusive,3,3,100.0
+06,Jakarta Selatan,FTTH,Exclusive,3,3,100.0
+07,Jakarta Selatan,FTTH,Exclusive,7,7,100.0
+08,Jakarta Selatan,FTTH,Exclusive,7,7,100.0
+09,Jakarta Selatan,FTTH,Exclusive,10,10,100.0
+10,Jakarta Selatan,FTTH,Exclusive,9,9,100.0
+11,Jakarta Selatan,FTTH,Exclusive,13,13,100.0
+12,Jakarta Selatan,FTTH,Exclusive,13,13,100.0
+07,Jakarta Utara,HFC,Exclusive,7,5,140.0
+08,Jakarta Utara,HFC,Exclusive,11,9,122.22
+09,Jakarta Utara,HFC,Exclusive,12,10,120.0
+10,Jakarta Utara,HFC,Exclusive,12,10,120.0
+11,Jakarta Utara,HFC,Exclusive,12,10,120.0
+12,Jakarta Utara,HFC,Exclusive,11,9,122.22
+01,Jakarta Timur,HFC,Open Access,16,15,106.67
+02,Jakarta Timur,HFC,Open Access,17,16,106.25
+03,Jakarta Timur,HFC,Open Access,20,18,111.11
+04,Jakarta Timur,HFC,Open Access,24,22,109.09
+05,Jakarta Timur,HFC,Open Access,25,24,104.17
+06,Jakarta Timur,HFC,Open Access,28,26,107.69
+07,Jakarta Timur,HFC,Open Access,29,26,111.54
+08,Jakarta Timur,HFC,Open Access,29,25,116.0
+09,Jakarta Timur,HFC,Open Access,27,23,117.39
+10,Jakarta Timur,HFC,Open Access,28,24,116.67
+11,Jakarta Timur,HFC,Open Access,28,24,116.67
+12,Jakarta Timur,HFC,Open Access,25,23,108.7
+04,Depok,FTTH,Open Access,41,37,110.81
+05,Depok,FTTH,Open Access,47,42,111.9
+06,Depok,FTTH,Open Access,52,46,113.04
+07,Depok,FTTH,Open Access,55,49,112.24
+04,Jakarta Pusat,FTTH,Open Access,18,17,105.88
+05,Jakarta Pusat,FTTH,Open Access,21,20,105.0
+06,Jakarta Pusat,FTTH,Open Access,22,20,110.0
+07,Jakarta Pusat,FTTH,Open Access,24,22,109.09
+08,Jakarta Pusat,FTTH,Open Access,25,23,108.7
+09,Jakarta Pusat,FTTH,Open Access,25,23,108.7
+10,Jakarta Pusat,FTTH,Open Access,26,24,108.33
+11,Jakarta Pusat,FTTH,Open Access,26,24,108.33
+12,Jakarta Pusat,FTTH,Open Access,26,24,108.33
+01,Jakarta Barat,FTTH,Open Access,30,29,103.45
+01,Jakarta Utara,FTTH,Open Access,33,33,100.0
+02,Jakarta Utara,FTTH,Open Access,37,37,100.0
+03,Jakarta Utara,FTTH,Open Access,42,42,100.0
+04,Jakarta Utara,FTTH,Open Access,44,42,104.76
+01,Jakarta Utara,HFC,Exclusive,4,4,100.0
+02,Jakarta Utara,HFC,Exclusive,4,4,100.0
+03,Jakarta Utara,HFC,Exclusive,4,4,100.0
+04,Jakarta Utara,HFC,Exclusive,3,3,100.0
+05,Jakarta Utara,HFC,Exclusive,4,4,100.0
+06,Jakarta Utara,HFC,Exclusive,4,4,100.0
+05,Tangerang,FTTH,Open Access,39,36,108.33
+07,Tangerang,FTTH,Open Access,44,41,107.32
+08,Tangerang,FTTH,Open Access,49,47,104.26
+03,Jakarta Pusat,FTTH,Open Access,15,15,100.0
+02,Jakarta Timur,FTTH,Open Access,34,33,103.03
+03,Jakarta Timur,FTTH,Open Access,38,36,105.56
+04,Jakarta Timur,FTTH,Open Access,41,39,105.13
+05,Jakarta Timur,FTTH,Open Access,46,43,106.98
+06,Jakarta Timur,FTTH,Open Access,47,43,109.3
+07,Jakarta Timur,FTTH,Open Access,50,44,113.64
+10,Jakarta Timur,FTTH,Open Access,52,46,113.04
+11,Jakarta Timur,FTTH,Open Access,53,47,112.77
+12,Jakarta Timur,FTTH,Open Access,53,47,112.77
+01,Tangerang,FTTH,Open Access,21,21,100.0
+02,Tangerang,FTTH,Open Access,25,25,100.0
+03,Tangerang,FTTH,Open Access,27,26,103.85
+04,Tangerang,FTTH,Open Access,36,33,109.09
+01,Jakarta Barat,HFC,Exclusive,2,2,100.0
+02,Jakarta Barat,HFC,Exclusive,3,3,100.0
+03,Jakarta Barat,HFC,Exclusive,3,3,100.0
+04,Jakarta Barat,HFC,Exclusive,3,3,100.0
+05,Jakarta Barat,HFC,Exclusive,3,3,100.0
+06,Jakarta Barat,HFC,Exclusive,4,4,100.0
+07,Jakarta Barat,HFC,Exclusive,6,6,100.0
+08,Jakarta Barat,HFC,Exclusive,8,8,100.0
+09,Jakarta Barat,HFC,Exclusive,10,10,100.0
+10,Jakarta Barat,HFC,Exclusive,10,10,100.0
+11,Jakarta Barat,HFC,Exclusive,12,12,100.0
+12,Jakarta Barat,HFC,Exclusive,12,12,100.0
+03,Jakarta Selatan,HFC,Open Access,19,19,100.0
+04,Jakarta Selatan,HFC,Open Access,23,22,104.55
+05,Jakarta Selatan,HFC,Open Access,24,23,104.35
+06,Jakarta Selatan,HFC,Open Access,24,23,104.35
+07,Jakarta Selatan,HFC,Open Access,25,23,108.7
+08,Jakarta Selatan,HFC,Open Access,27,24,112.5
+09,Jakarta Selatan,HFC,Open Access,29,26,111.54
+10,Jakarta Selatan,HFC,Open Access,29,26,111.54
+11,Jakarta Selatan,HFC,Open Access,29,25,116.0
+12,Jakarta Selatan,HFC,Open Access,28,24,116.67
+07,Jakarta Pusat,HFC,Open Access,12,10,120.0
+08,Jakarta Pusat,HFC,Open Access,13,11,118.18
+09,Jakarta Pusat,HFC,Open Access,13,11,118.18
+10,Jakarta Pusat,HFC,Open Access,14,11,127.27
+11,Jakarta Pusat,HFC,Open Access,14,11,127.27
+12,Jakarta Pusat,HFC,Open Access,14,11,127.27
+06,Jakarta Selatan,FTTH,Open Access,43,40,107.5
+02,Depok,FTTH,Open Access,31,28,110.71
+03,Depok,FTTH,Open Access,36,33,109.09
+06,Jakarta Barat,HFC,Open Access,17,15,113.33
+07,Jakarta Barat,HFC,Open Access,18,16,112.5
+08,Jakarta Barat,HFC,Open Access,18,16,112.5
+09,Jakarta Barat,HFC,Open Access,18,16,112.5
+10,Jakarta Barat,HFC,Open Access,19,17,111.76
+11,Jakarta Barat,HFC,Open Access,19,18,105.56
+12,Jakarta Barat,HFC,Open Access,19,18,105.56
+01,Bekasi,HFC,Open Access,16,14,114.29
+02,Bekasi,HFC,Open Access,17,15,113.33
+03,Bekasi,HFC,Open Access,18,16,112.5
+04,Bekasi,HFC,Open Access,19,17,111.76
+05,Bekasi,HFC,Open Access,20,17,117.65
+06,Bekasi,HFC,Open Access,23,20,115.0
+07,Bekasi,HFC,Open Access,25,22,113.64
+08,Bekasi,HFC,Open Access,26,23,113.04
+09,Bekasi,HFC,Open Access,27,24,112.5
+10,Bekasi,HFC,Open Access,27,24,112.5
+11,Bekasi,HFC,Open Access,29,25,116.0
+12,Bekasi,HFC,Open Access,28,24,116.67
+04,Depok,HFC,Open Access,16,15,106.67
+05,Depok,HFC,Open Access,19,18,105.56
+06,Depok,HFC,Open Access,20,19,105.26
+07,Depok,HFC,Open Access,22,20,110.0
+08,Depok,HFC,Open Access,19,18,105.56
+09,Depok,HFC,Open Access,19,18,105.56
+10,Depok,HFC,Open Access,20,19,105.26
+11,Depok,HFC,Open Access,20,19,105.26
+12,Depok,HFC,Open Access,20,19,105.26
+01,Jakarta Pusat,HFC,Exclusive,1,1,100.0
+02,Jakarta Pusat,HFC,Exclusive,1,1,100.0
+03,Jakarta Pusat,HFC,Exclusive,1,1,100.0
+04,Jakarta Pusat,HFC,Exclusive,1,1,100.0
+05,Jakarta Pusat,HFC,Exclusive,2,2,100.0
+06,Jakarta Pusat,HFC,Exclusive,2,2,100.0
+07,Jakarta Pusat,HFC,Exclusive,3,3,100.0
+08,Jakarta Pusat,HFC,Exclusive,3,3,100.0
+09,Jakarta Pusat,HFC,Exclusive,3,3,100.0
+10,Jakarta Pusat,HFC,Exclusive,3,3,100.0
+11,Jakarta Pusat,HFC,Exclusive,6,6,100.0
+12,Jakarta Pusat,HFC,Exclusive,6,6,100.0
+01,Jakarta Barat,HFC,Open Access,12,11,109.09
+02,Jakarta Barat,HFC,Open Access,14,13,107.69
+03,Jakarta Barat,HFC,Open Access,15,14,107.14
+04,Jakarta Barat,HFC,Open Access,15,14,107.14
+05,Jakarta Barat,HFC,Open Access,16,15,106.67
+06,Tangerang,HFC,Open Access,18,17,105.88
+01,Jakarta Selatan,HFC,Exclusive,2,2,100.0
+02,Jakarta Selatan,HFC,Exclusive,2,2,100.0
+03,Jakarta Selatan,HFC,Exclusive,3,3,100.0
+04,Jakarta Selatan,HFC,Exclusive,3,3,100.0
+05,Jakarta Selatan,HFC,Exclusive,3,3,100.0
+06,Jakarta Selatan,HFC,Exclusive,3,3,100.0
+07,Jakarta Selatan,HFC,Exclusive,5,4,125.0
+08,Jakarta Selatan,HFC,Exclusive,8,7,114.29
+09,Jakarta Selatan,HFC,Exclusive,7,7,100.0
+08,Jakarta Timur,HFC,Exclusive,10,9,111.11
+09,Jakarta Timur,HFC,Exclusive,9,8,112.5
+01,Jakarta Timur,HFC,Exclusive,4,4,100.0
+02,Jakarta Timur,HFC,Exclusive,4,4,100.0
+03,Jakarta Timur,HFC,Exclusive,4,4,100.0
+04,Jakarta Timur,HFC,Exclusive,4,4,100.0
+05,Jakarta Timur,HFC,Exclusive,4,4,100.0
+06,Jakarta Timur,HFC,Exclusive,4,4,100.0
+07,Jakarta Timur,HFC,Exclusive,5,5,100.0
+10,Jakarta Timur,HFC,Exclusive,8,7,114.29
+11,Jakarta Timur,HFC,Exclusive,9,8,112.5
+12,Jakarta Timur,HFC,Exclusive,9,8,112.5
+05,Jakarta Selatan,FTTH,Open Access,34,32,106.25
+01,Jakarta Pusat,FTTH,Open Access,11,11,100.0
+02,Jakarta Pusat,FTTH,Open Access,13,13,100.0
+01,Jakarta Selatan,FTTH,Open Access,20,18,111.11
+02,Jakarta Selatan,FTTH,Open Access,24,22,109.09
+01,Depok,FTTH,Open Access,26,24,108.33
+01,Jakarta Pusat,HFC,Open Access,8,6,133.33
+02,Jakarta Pusat,HFC,Open Access,8,6,133.33
+03,Jakarta Pusat,HFC,Open Access,10,8,125.0
+04,Jakarta Pusat,HFC,Open Access,9,7,128.57
+05,Jakarta Pusat,HFC,Open Access,9,7,128.57
+06,Jakarta Pusat,HFC,Open Access,10,8,125.0
+01,Jakarta Selatan,FTTH,Exclusive,2,2,100.0
+02,Jakarta Selatan,FTTH,Exclusive,2,2,100.0
+03,Jakarta Selatan,FTTH,Exclusive,2,2,100.0
+01,Tangerang,HFC,Open Access,9,9,100.0
+02,Tangerang,HFC,Open Access,10,10,100.0
+03,Tangerang,HFC,Open Access,13,13,100.0
+04,Tangerang,HFC,Open Access,16,16,100.0
+05,Tangerang,HFC,Open Access,16,16,100.0
+10,Jakarta Selatan,HFC,Exclusive,7,7,100.0
+11,Jakarta Selatan,HFC,Exclusive,9,9,100.0
+12,Jakarta Selatan,HFC,Exclusive,9,9,100.0
+03,Jakarta Selatan,FTTH,Open Access,24,22,109.09
+04,Jakarta Selatan,FTTH,Open Access,27,25,108.0
+01,Jakarta Selatan,HFC,Open Access,14,14,100.0
+02,Jakarta Selatan,HFC,Open Access,16,16,100.0
+01,Jakarta Timur,FTTH,Open Access,32,31,103.23
